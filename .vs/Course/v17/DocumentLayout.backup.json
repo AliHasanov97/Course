@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Course\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D17288B1-ED0E-4C6A-8826-AD1E3EFA620D}|Lesson3\\Lesson3.csproj|c:\\users\\user\\source\\repos\\course\\lesson3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17288B1-ED0E-4C6A-8826-AD1E3EFA620D}|Lesson3\\Lesson3.csproj|solutionrelative:lesson3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1463270-AE0E-40A0-9511-A51768B435FB}|Lesson5\\Lesson5.csproj|c:\\users\\user\\source\\repos\\course\\lesson5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1463270-AE0E-40A0-9511-A51768B435FB}|Lesson5\\Lesson5.csproj|solutionrelative:lesson5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1463270-AE0E-40A0-9511-A51768B435FB}|Lesson5\\Lesson5.csproj|c:\\users\\user\\source\\repos\\course\\lesson5\\lesson5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1463270-AE0E-40A0-9511-A51768B435FB}|Lesson5\\Lesson5.csproj|solutionrelative:lesson5\\lesson5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lesson5",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Course\\Lesson5\\Lesson5.csproj",
+              "RelativeDocumentMoniker": "Lesson5\\Lesson5.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Course\\Lesson5\\Lesson5.csproj",
+              "RelativeToolTip": "Lesson5\\Lesson5.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T18:02:11.715Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Course\\Lesson3\\Program.cs",
-              "RelativeDocumentMoniker": "Lesson3\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Course\\Lesson3\\Program.cs*",
-              "RelativeToolTip": "Lesson3\\Program.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwDMAAAAzAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Course\\Lesson5\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Course\\Lesson5\\Program.cs*",
+              "RelativeToolTip": "Lesson5\\Program.cs*",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAkwJEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:22:30.267Z",
+              "WhenOpened": "2025-03-25T18:02:03.216Z",
               "EditorCaption": ""
             }
           ]
