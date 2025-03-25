@@ -1,0 +1,54 @@
+# Visual Studio-nun müvəqqəti faylları və qovluqları
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Bin və obj qovluqları (build nəticələri)
+bin/
+obj/
+
+# NuGet paketləri
+*.nupkg
+packages/
+!packages/repositories.config
+
+# .NET SDK müvəqqəti faylları
+project.lock.json
+project.assets.json
+# Paketlər və cache
+.nuget/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+*.pdb
+
+# MacOS sistem faylları
+.DS_Store
+
+# Windows sistem faylları
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Rider IDE üçün
+.idea/
+*.sln.iml
+
+# Resharper faylları
+*_Resharper*/
+*.DotSettings.user
+
+# Entity Framework migration backup faylları
+Migrations/
+
+# ASP.NET Core konfiqurasiyası
+appsettings.Development.json
+secrets.json
+
+# Publish nəticələri
+publish/
+wwwroot/
