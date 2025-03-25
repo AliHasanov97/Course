@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Lesson5
 {
@@ -123,27 +125,55 @@ namespace Lesson5
             #region Task 8
             //Write a C# program to find prime numbers up to users entered value.
             //Exmpl: input-100, Result: 2, 3, 5, 7, 11, 13 ... 89, 97
-            Console.WriteLine(
-                "Input the number to find prime numbers up to users entered value: ");
-            int number = int.Parse(Console.ReadLine());
-            Console.WriteLine(
-                "Prime numbers up to users entered value: ");
-            for (int i = 2; i <= number; i++)
-            {
-                bool isPrime = true;
-                for (int j = 2; j <= i / 2; j++)
-                {
-                    if (i % j == 0)
-                    {
-                        isPrime = false;
-                        break;
-                    }
-                }
-                if (isPrime)
-                {
-                    Console.Write(i + " ");
-                }
-            }
+
+            //Console.WriteLine(
+            //    "Input the number to find prime numbers up to users entered value: ");
+            //int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine(
+            //    "Prime numbers up to users entered value: ");
+            //for (int i = 2; i <= number; i++)
+            //{
+            //    bool isPrime = true;
+            //    for (int j = 2; j <= i / 2; j++)
+            //    {
+            //        if (i % j == 0)
+            //        {
+            //            isPrime = false;
+            //            break;
+            //        }
+            //    }
+            //    if (isPrime)
+            //    {
+            //        Console.Write(i + " ");
+            //    }
+            //}
+            #endregion
+
+            #region Task 9
+            //Write a program in C# to check whether a number can be express as sum of two prime numbers.
+            //Test Data :
+            //Input a positive integer: 16
+            //Expected Output :
+            //16 = 3 + 13
+            //16 = 5 + 11
+            #endregion
+
+            #region Task 10
+            //Write a program in C# to check whether a number is a palindrome (visual simmetric) or not. Test Data :
+            //Input a number: 121
+            //Expected Output :
+            //121 is a palindrome number.
+
+            //Console.WriteLine("Write number");
+            //string num = Console.ReadLine();
+            //if (num == new string(num.Reverse().ToArray()))
+            //{
+            //    Console.WriteLine($"{num} is a palindrome number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{num} is not a palindrome number.");
+            //}
             #endregion
         }
     }
